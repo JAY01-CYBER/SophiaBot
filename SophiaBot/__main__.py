@@ -74,7 +74,7 @@ def get_readable_time(seconds: int) -> str:
     return ping_time
 
 
-PM_START_TEXT = """Hey there! My name is <b>Sophia.</b>\nI can help manage your groups with useful features, feel free to add me to your groups!"""
+PM_START_TEXT = """Hey there! My name is <b>Nonsense Robot.</b>\nI can help manage your groups with useful features, feel free to add me to your groups!"""
 
 buttons = [
     [
@@ -86,16 +86,16 @@ buttons = [
         ),
     ],
     [
-        InlineKeyboardButton(text="Sophia News 🙋‍♀️ ", url=f"https://t.me/SophiaUpdates"),
-        InlineKeyboardButton(text="Support Group 💬 ", url=f"https://t.me/SophiaSupport_Official"),
+        InlineKeyboardButton(text="Owner 🙋‍♀️ ", url=f"t.me/chaudhary_Anjana"),
+        InlineKeyboardButton(text="Support Group 💬 ", url=f"https://t.me/NONSENSE_SUPPORT"),
     ],
     [
-        InlineKeyboardButton(text="➕ Add me to your Group ➕", url="t.me/SophiaSLBot?startgroup=true"),   
+        InlineKeyboardButton(text="➕ Add me to your Group ➕", url="t.me/Nonsense_proRobot?startgroup=true"),   
     ],
 ]
 
 HELP_STRINGS = """
-Hi Boss! I'm <b>Sophia</b>. An anime themed super powerful group management bot with many handy tools. So why are you waiting. Let me to assist you.
+Hi Boss! I'm <b>Nonsense Robot</b>. An anime themed super powerful group management bot with many handy tools. So why are you waiting. Let me to assist you.
 """
 
 DONATE_STRING = """ Join Updates Channel @SophiaUpdates | Support Group @SophiaSupport_Official"""
